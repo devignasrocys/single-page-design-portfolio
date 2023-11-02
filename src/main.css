@@ -197,7 +197,7 @@ h1 {
 
 .carousel-cell {
   width: 66%;
-  height: 200px;
+  height: 400px;
   margin-right: 10px;
   border-radius: 5px;
   counter-increment: carousel-cell;
