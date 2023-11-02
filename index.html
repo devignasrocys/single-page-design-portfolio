@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="./src/main.css" />
+
     <title>single page design portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <header class="header">
-        <img src="./assets/logo.svg" alt="" class="logo">
-        <button class="btn">Free Consultation</button>
+      <img src="./assets/logo.svg" alt="" class="logo" />
+      <button class="btn">Free Consultation</button>
     </header>
     <main class="main">
-        <section class="hero">
-            <h1>Design solutions made easy</h1>
-            <p>With over ten years of experience in various design disciplines. I'm your one-stop shop for your design needs</p>
-        </section>
-        <section class="features">
-            <article class="card">
-                <p>Graphic Design</p>
-            </article>
-            <article class="card">
-                <p>UI/UX</p>
-            </article>
-            <article class="card">
-                <p>Apps</p>
-            </article>
-            <article class="card">
-                <p>Illustrations</p>
-            </article>
-            <article class="card">
-                <p>Photography</p>
-            </article>
-            <article class="card">
-                <p>Motion Graphic</p>
-            </article>
-        </section>
-        <section class="bio">
-            <article class="img">
-                <img src="./assets/image-amy.webp" alt="">
-            </article>
-            <article class="bio-text">
-                <h1>I’m Amy, and I’d love to work on your next project</h1>
-                <p>
-                    I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!
-                </p>
-                <button class="btn">Free Consultation</button>
-            </article>
-        </section>
-        <section class="work">
-            <h1>My Work</h1>
-            <div class="carousele"></div>
-        </section>
-        <section class="contact">
-            <h1>Book a call with me</h1>
-            <p>
-                I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.
-            </p>
-            <button class="btn">Free Consultation</button>
-        </section>
+      <section class="hero">
+        <h1>Design solutions made easy</h1>
+        <p>
+          With over ten years of experience in various design disciplines. I'm
+          your one-stop shop for your design needs
+        </p>
+      </section>
+      <section class="features">
+        <article class="card">
+          <img src="./assets/pattern-graphic-design.svg" alt="" />
+          <p>Graphic Design</p>
+        </article>
+        <article class="card">
+          <img src="./assets/pattern-ui-ux.svg" alt="" />
+          <p>UI/UX</p>
+        </article>
+        <article class="card">
+          <img src="./assets/pattern-apps.svg" alt="" />
+          <p>Apps</p>
+        </article>
+        <article class="card">
+          <img src="./assets/pattern-illustrations.svg" alt="" />
+          <p>Illustrations</p>
+        </article>
+        <article class="card">
+          <img src="./assets/pattern-photography.svg" alt="" />
+          <p>Photography</p>
+        </article>
+        <article class="card">
+          <img src="./assets/pattern-motion-graphics.svg" alt="" />
+          <p>Motion Graphic</p>
+        </article>
+      </section>
+      <section class="bio">
+        <article class="img">
+          <img src="./assets/image-amy.webp" alt="" />
+        </article>
+        <article class="bio-text">
+          <h1>I’m Amy, and I’d love to work on your next project</h1>
+          <p>
+            I love working with others to create beautiful design solutions.
+            I’ve designed everything from brand illustrations to complete mobile
+            apps. I’m also handy with a camera!
+          </p>
+          <button class="btn">Free Consultation</button>
+        </article>
+      </section>
+      <section class="work">
+        <h1>My Work</h1>
+        <div
+          class="main-carousel"
+          data-flickity='{ "cellAlign": "left", "contain": true }'
+        >
+          <div class="carousel-cell">
+            <img src="./assets/image-slide-1.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/image-slide-2.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/image-slide-3.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/image-slide-4.jpg" alt="" />
+          </div>
+          <div class="carousel-cell">
+            <img src="./assets/image-slide-5.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h1>Book a call with me</h1>
+        <p>
+          I’d love to have a chat to see how I can help you. The best first step
+          is for us to discuss your project during a free consultation. Then we
+          can move forward from there.
+        </p>
+        <button class="btn">Free Consultation</button>
+      </section>
     </main>
     <footer class="footer">
-        <img src="./assets/logo.svg" alt="" class="logo">
-        <button class="btn">Free Consultation</button>
+      <img src="./assets/logo.svg" alt="" class="logo" />
+      <button class="btn">Free Consultation</button>
     </footer>
-    
+
     <script src="./src/main.js"></script>
-</body>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
 </html>
